@@ -3,6 +3,7 @@
  */
 public class Abc {
     public static void main (String[] args ) {
-        System.out.println("a");
+        System.out.println("a0");
+        System.out.println("a1");
     }
 }
