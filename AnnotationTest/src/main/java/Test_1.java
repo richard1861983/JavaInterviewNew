@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
  */
 public class Test_1 {
     /*
-     * ±»×¢½âµÄÈı¸ö·½·¨
+     * è¢«æ³¨è§£çš„ä¸‰ä¸ªæ–¹æ³•
      */
     @Test(id = 1, description = "hello method_1")
     public void method_1() {
@@ -20,18 +20,18 @@ public class Test_1 {
     }
 
     /*
-     * ½âÎö×¢½â£¬½«Test_1Àà ËùÓĞ±»×¢½â·½·¨ µÄĞÅÏ¢´òÓ¡³öÀ´
+     * è§£ææ³¨è§£ï¼Œå°†Test_1ç±» æ‰€æœ‰è¢«æ³¨è§£æ–¹æ³• çš„ä¿¡æ¯æ‰“å°å‡ºæ¥
      */
     public static void main(String[] args) {
         Method[] methods = Test_1.class.getDeclaredMethods();
         for (Method method : methods) {
             /*
-             * ÅĞ¶Ï·½·¨ÖĞÊÇ·ñÓĞÖ¸¶¨×¢½âÀàĞÍµÄ×¢½â
+             * åˆ¤æ–­æ–¹æ³•ä¸­æ˜¯å¦æœ‰æŒ‡å®šæ³¨è§£ç±»å‹çš„æ³¨è§£
              */
             boolean hasAnnotation = method.isAnnotationPresent(Test.class);
             if (hasAnnotation) {
                 /*
-                 * ¸ù¾İ×¢½âÀàĞÍ·µ»Ø·½·¨µÄÖ¸¶¨ÀàĞÍ×¢½â
+                 * æ ¹æ®æ³¨è§£ç±»å‹è¿”å›æ–¹æ³•çš„æŒ‡å®šç±»å‹æ³¨è§£
                  */
                 Test annotation = method.getAnnotation(Test.class);
                 System.out.println("Test( method = " + method.getName()

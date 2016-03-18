@@ -11,7 +11,7 @@ import static junit.framework.TestCase.assertEquals;
  *
  * @author <Authors name>
  * @version 1.0
- * @since <pre>ÈýÔÂ 16, 2016</pre>
+ * @since <pre>16, 2016</pre>
  */
 public class CalcuatorTest {
 

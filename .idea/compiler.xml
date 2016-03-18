@@ -24,11 +24,13 @@
         <processorPath useClasspath="true" />
         <module name="Abc" />
         <module name="JavaTest" />
+        <module name="JdkSourece" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Abc" target="1.5" />
       <module name="JavaTest" target="1.5" />
+      <module name="JdkSourece" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
