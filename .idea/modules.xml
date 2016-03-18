@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abc/Abc.iml" filepath="$PROJECT_DIR$/Abc/Abc.iml" />
       <module fileurl="file://$PROJECT_DIR$/AnnotationTest/AnnotationTest.iml" filepath="$PROJECT_DIR$/AnnotationTest/AnnotationTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaTest/JavaTest.iml" filepath="$PROJECT_DIR$/JavaTest/JavaTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/JunitTest/JunitTest.iml" filepath="$PROJECT_DIR$/JunitTest/JunitTest.iml" />
