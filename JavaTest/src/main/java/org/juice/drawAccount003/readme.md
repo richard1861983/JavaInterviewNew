@@ -1,0 +1,1 @@
+Account的draw方法未用synchronized修饰符，同步有问题！

@@ -1,0 +1,1 @@
+Account的draw方法用 lock 修饰符，同步无问题！

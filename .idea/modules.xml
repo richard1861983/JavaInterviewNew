@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaTest/JavaTest.iml" filepath="$PROJECT_DIR$/JavaTest/JavaTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/JdkSourece/JdkSourece.iml" filepath="$PROJECT_DIR$/JdkSourece/JdkSourece.iml" />
       <module fileurl="file://$PROJECT_DIR$/JunitTest/JunitTest.iml" filepath="$PROJECT_DIR$/JunitTest/JunitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StructTest/StructTest.iml" filepath="$PROJECT_DIR$/StructTest/StructTest.iml" />
     </modules>
   </component>
 </project>
