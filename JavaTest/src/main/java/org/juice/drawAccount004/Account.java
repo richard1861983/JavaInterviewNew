@@ -1,9 +1,12 @@
 package org.juice.drawAccount004;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * Created by Administrator on 2016/3/19.
  */
 public class Account {
+    private final ReentrantLock lock = new ReentrantLock();
     private String accountNo;
     private double balance;
 
@@ -30,14 +33,19 @@ public class Account {
         this.accountNo = accountNo;
     }
 
-    public synchronized void draw(double drawAmount) {
-        if(balance>=drawAmount) {
-            System.out.println("取款成功!"+drawAmount);
+    public void draw(double drawAmount) {
+        lock.lock();
+        try {
+            if(balance>=drawAmount) {
+                System.out.println("取款成功!"+drawAmount);
 
-            balance -= drawAmount;
-            System.out.println("\t余额为"+balance);
-        } else {
-            System.out.println("取款失败!");
+                balance -= drawAmount;
+                System.out.println("\t余额为"+balance);
+            } else {
+                System.out.println("取款失败!");
+            }
+        } finally {
+            lock.unlock();
         }
     }
 
