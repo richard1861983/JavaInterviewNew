@@ -29,6 +29,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Abc" target="1.5" />
+      <module name="IoTest" target="1.5" />
       <module name="JavaTest" target="1.5" />
       <module name="JdkSourece" target="1.5" />
     </bytecodeTargetLevel>
