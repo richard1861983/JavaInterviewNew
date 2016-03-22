@@ -11,6 +11,7 @@ import java.io.IOException;
 public class FileInputStreamTest {
     public static void main ( String[] args ) throws IOException {
         File file = new File("aaa.txt");
+        System.out.println(new File("").getAbsolutePath());
         FileInputStream fis = new FileInputStream(file);
 
         byte[] bbuf = new byte[1024];
